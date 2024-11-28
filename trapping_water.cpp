@@ -7,7 +7,7 @@ public:
                 max_height = height[i];
             }
         }
-//
+
         int last_highest_index = 0;
         for (int i = height.size()-1; i>=0; i--) {
             if (height[i] == max_height) {
@@ -15,7 +15,7 @@ public:
                 break;
             }
         }
-        
+        //
         int summa = 0;
         bool switch_direction = false;
         int first_max = height[0];
